@@ -164,6 +164,16 @@ th{background:#ECEFF4!important}
 @media(prefers-reduced-motion:reduce){.reveal-item{transition:none!important;translate:none!important}}
 @media print{.reveal-item{transition:none!important}.reveal-item.reveal-pending{opacity:1!important;translate:none!important;visibility:visible!important;pointer-events:auto!important}.reveal-progress{display:none!important}}
 </style>
+<style id="start-early-layout">
+#start-early{gap:24px;padding-top:86px;padding-bottom:110px}
+#start-early>.sub{font-size:30px;line-height:1.45;max-width:1580px}
+#start-early>.row{gap:28px;min-height:0;align-items:stretch}
+#start-early>.row>.card{min-width:0;padding:30px 32px;gap:20px!important}
+#start-early h3{font-size:38px;line-height:1.3}
+#start-early ul{font-size:28px;line-height:1.5}
+#start-early>.card{padding:22px 30px!important}
+#start-early>.card p{font-size:30px!important;line-height:1.5}
+</style>
 </head>
 <body>
 <div id="stage">
@@ -197,22 +207,10 @@ th{background:#ECEFF4!important}
   <div class="foot"><span></span><span class="pg"></span></div>
 </section>
 
-<section class="slide">
-  <div class="kicker">02 · 운영 절차</div>
-  <h2>요강 공고에서 우수작 공유까지</h2>
-  <div class="steps">
-    <div class="step"><div class="n">1</div><h3>요강 공고·설명회</h3><p class="note">KERIS 온라인 설명회와 시도별 설명회</p></div>
-    <div class="step hl"><div class="n">2</div><h3>시도대회</h3><p class="note">시도별 운영, 인천은 2026. 3.~9.</p></div>
-    <div class="step"><div class="n">3</div><h3>전국대회</h3><p class="note">시도대회 입상작을 추천</p></div>
-    <div class="step"><div class="n">4</div><h3>입상작 확정·시상</h3><p class="note">등급별 시상</p></div>
-    <div class="step"><div class="n">5</div><h3>우수작 공유·확산</h3><p class="note">입상작은 에듀넷에 공개</p></div>
-  </div>
-  
-  <div class="foot"><span></span><span class="pg"></span></div>
-</section>
+
 
 <section class="slide">
-  <div class="kicker">03 · 응모 자격</div>
+  <div class="kicker">02 · 응모 자격</div>
   <h2>수업하는 현직 교원이 대상입니다</h2>
   <div class="row grow" style="align-items:stretch">
     <div class="card col grow" style="justify-content:center"><h3>누가?</h3>
@@ -226,9 +224,10 @@ th{background:#ECEFF4!important}
 
 
 <section class="slide">
-  <div class="kicker">05 · 인천 시도대회 일정</div>
+  <div class="kicker">03 · 인천 시도대회 일정</div>
   <h2>3월부터 9월까지 이어집니다</h2>
   <div class="tl">
+    <div class="it hl"><div class="when">3월경</div><div class="what">참가 신청 안내 확인 <span class="note">(정확한 신청 기간은 시행 공문 확인)</span></div></div>
     <div class="it"><div class="when">3 ~ 4월</div><div class="what">요강 공고, 설명회 <span class="note">(KERIS 3. 25. · 인천 4. 2.)</span></div></div>
     <div class="it hl"><div class="when">8. 14. ~ 8. 20.</div><div class="what">최종 연구보고서 제출 <span class="note">(17:00까지)</span></div></div>
     <div class="it"><div class="when">8. 24. ~ 8. 26.</div><div class="what">사전 검토 (표절·저작권·대리작 확인)</div></div>
@@ -237,9 +236,28 @@ th{background:#ECEFF4!important}
   </div>
   <div class="foot"><span></span><span class="pg"></span></div>
 </section>
+<section class="slide" id="start-early">
+  <div class="kicker">04 · 일찍 시작해야 하는 이유</div>
+  <h2>준비는 학기 초부터 시작하세요</h2>
+  <p class="sub">보고서 제출 직전에 몰아서 끝내기에는, 학생들과 실제로 적용하고 확인해야 할 과정이 많습니다.</p>
+  <div class="row grow">
+    <div class="card col" style="flex:1;gap:20px">
+      <span class="pill o">디지털 교수·학습분과</span>
+      <h3>수업을 적용하고, 변화를 확인</h3>
+      <ul class="plain small"><li>수업 설계 → 학생 대상 적용 → 결과 평가·분석</li><li>학생의 학습 결과와 변화, 활동 자료를 꾸준히 수집</li><li>요강에서는 <b>한 학기 이상 교수·학습에 적용을 권장</b></li></ul>
+    </div>
+    <div class="card col" style="flex:1;gap:20px;background:var(--yellow)">
+      <span class="pill w">교육용 SW·AI분과</span>
+      <h3>만든 뒤, 학생들과 써보고 검증</h3>
+      <ul class="plain small"><li>프로그램 설계·개발 → 수업 적용 → 평가·보완</li><li>실제 사용 결과와 교육적 효과를 확인하고 자료 수집</li><li>오류 수정과 개선, 재적용에 필요한 시간까지 확보</li></ul>
+    </div>
+  </div>
+  <div class="card" style="padding:22px 32px"><p style="font-size:32px"><b>참가를 생각한다면 학기 초부터!</b>　신청 안내를 확인하면서 연구 주제·수업 일정·평가 방법을 함께 준비하세요.</p></div>
+  <div class="foot"><span></span><span class="pg"></span></div>
+</section>
 
 <section class="slide">
-  <div class="kicker">06 · 심사 중점사항</div>
+  <div class="kicker">05 · 심사 중점사항</div>
   <h2>무엇을 보고 평가할까요</h2>
   <div class="row grow">
     <div class="card col" style="flex:1;gap:14px"><span class="pill o">디지털 교수·학습</span>
@@ -251,7 +269,7 @@ th{background:#ECEFF4!important}
 </section>
 
 <section class="slide">
-  <div class="kicker">07 · 제20회 전국 입상작 분석</div>
+  <div class="kicker">06 · 제20회 전국 입상작 분석</div>
   <h2>에듀넷 입상작 279편을 살펴봤습니다</h2>
   <div class="row grow">
     <div class="card col" style="flex:1;gap:14px"><h3>학교급</h3>
@@ -278,7 +296,7 @@ th{background:#ECEFF4!important}
 </section>
 
 <section class="slide">
-  <div class="kicker">08 · 제20회 전국대회 정보 교과 입상작</div>
+  <div class="kicker">07 · 제20회 전국대회 정보 교과 입상작</div>
   <h2>전국대회에서 정보 교과는 13편이 입상했습니다</h2>
   <div class="row grow">
     <div class="card col" style="flex:1.45;gap:10px;padding:26px 32px"><span class="pill t">고등학교 9편</span>
@@ -303,6 +321,26 @@ th{background:#ECEFF4!important}
   </div>
   <div class="foot"><span></span><span class="pg"></span></div>
 </section>
+<section class="slide" id="information-subject-reflection" style="gap:32px;justify-content:center">
+  <h2>정보과는 5% 정도</h2>
+  <div class="card" style="padding:36px 42px">
+    <p style="font-size:40px;line-height:1.5">대회 이름에 <b>‘디지털’</b>이 들어가서<br>정보과의 참여도 많을 줄 알았는데,<br>입상작을 보니 <b>정보 교과는 279편 중 13편, 약 5%</b>였습니다.</p>
+  </div>
+  <div class="card" style="padding:36px 42px;background:var(--yellow);text-align:left">
+    <p style="font-size:36px;line-height:1.65">공문에 <b>디지털·인터넷·AI</b>가 들어가면 다 정보과로 주는데,<br>그렇다면 정보과가 가진 장점을 연구에 더 살려볼 수 있지 않을까요?</p>
+  </div>
+  <div class="foot"><span></span><span class="pg"></span></div>
+</section>
+<section class="slide">
+  <div class="kicker">정보 교과 · 우리가 가진 장점</div>
+  <h2>제가 생각한 정보과의 장점</h2>
+  <div class="row grow" style="gap:28px">
+    <div class="card col" style="flex:1;gap:18px;justify-content:flex-start;padding-top:80px"><span class="pill t" style="align-self:flex-start">1</span><h3 style="font-size:44px">개발 경험이 있다</h3><p class="list26" style="font-size:32px">앱·웹·게임을 만들어 본 경험이 있어서 개발 과정이 익숙합니다</p></div>
+    <div class="card col" style="flex:1;gap:18px;justify-content:flex-start;padding-top:80px"><span class="pill o" style="align-self:flex-start">2</span><h3 style="font-size:44px">더 깊고 다양하게</h3><p class="list26" style="font-size:32px">정보과목은 과목 특성상 수업시간에 컴퓨터를 많이 사용할 수 있기 때문에 다른 과목보다 디지털 관련해서 심화된 내용을 다양하게 시도할 수 있습니다</p></div>
+    <div class="card col" style="flex:1;gap:18px;justify-content:flex-start;padding-top:80px;background:var(--yellow)"><span class="pill w" style="align-self:flex-start">필살기</span><h3 style="font-size:44px">고정 멤버 有</h3><p class="list26" style="font-size:32px">방과후학교나 코딩동아리에는 코딩에 관심과 역량을 갖춘 학생들이 있습니다.<br><br>이 고정 멤버들과 프로젝트를 꾸준히 이어가며, 실제 사용과 테스트를 반복할 수 있습니다.<br><br>학생들의 피드백을 바로 반영해 기능을 보완하고 완성도를 지속적으로 높일 수 있습니다.</p></div>
+  </div>
+  <div class="foot"><span></span><span class="pg"></span></div>
+</section>
 
 <section class="slide cover">
   <div class="dots" style="width:420px;height:420px;right:-100px;top:-120px;background:var(--teal)"></div>
@@ -313,16 +351,7 @@ th{background:#ECEFF4!important}
   <div class="foot"><span></span><span class="pg"></span></div>
 </section>
 
-<section class="slide">
-  <div class="kicker">분과 비교 · 먼저 같은 점</div>
-  <h2>자격과 일정은 두 분과가 같습니다</h2>
-  <div class="row grow" style="flex-wrap:wrap;align-content:stretch">
-    <div class="card col" style="flex:1 1 40%;gap:8px"><h3>응모 자격</h3><p class="list26">수업을 담당하는 재직 정규 교원, 개인 또는 2인 공동(같은 학교급끼리)</p></div>
-    <div class="card col" style="flex:1 1 40%;gap:8px;background:var(--yellow)"><h3>선정 비율</h3><p class="list26">출품작의 60% 입상, 1·2·3등급은 1:2:3</p></div>
-    <div class="card col" style="flex:1 1 40%;gap:8px;background:var(--yellow)"><h3>일정</h3><p class="list26">인천 시도대회는 3~9월에 진행</p></div>
-  </div>
-  <div class="foot"><span></span><span class="pg"></span></div>
-</section>
+
 
 <section class="slide">
   <div class="kicker">분과 비교 · 연구 대상의 차이</div>
@@ -393,16 +422,7 @@ th{background:#ECEFF4!important}
   <div class="foot"><span></span><span class="pg"></span></div>
 </section>
 
-<section class="slide">
-  <div class="kicker">분과 비교 · 정보과의 장점</div>
-  <h2>제가 생각한 정보과의 장점</h2>
-  <div class="row grow" style="gap:28px">
-    <div class="card col" style="flex:1;gap:18px;justify-content:flex-start;padding-top:80px"><span class="pill t" style="align-self:flex-start">1</span><h3 style="font-size:44px">개발 경험이 있다</h3><p class="list26" style="font-size:32px">앱·웹·게임을 만들어 본 경험이 있어서 개발 과정이 익숙합니다</p></div>
-    <div class="card col" style="flex:1;gap:18px;justify-content:flex-start;padding-top:80px"><span class="pill o" style="align-self:flex-start">2</span><h3 style="font-size:44px">더 깊고 다양하게</h3><p class="list26" style="font-size:32px">정보과목은 과목 특성상 수업시간에 컴퓨터를 많이 사용할 수 있기 때문에 다른 과목보다 디지털 관련해서 심화된 내용을 다양하게 시도할 수 있습니다</p></div>
-    <div class="card col" style="flex:1;gap:18px;justify-content:flex-start;padding-top:80px;background:var(--yellow)"><span class="pill w" style="align-self:flex-start">필살기</span><h3 style="font-size:44px">고정 멤버 有</h3><p class="list26" style="font-size:32px">방과후학교나 코딩동아리에는 코딩에 관심과 역량을 갖춘 학생들이 있습니다.<br><br>이 고정 멤버들과 프로젝트를 꾸준히 이어가며, 실제 사용과 테스트를 반복할 수 있습니다.<br><br>학생들의 피드백을 바로 반영해 기능을 보완하고 완성도를 지속적으로 높일 수 있습니다.</p></div>
-  </div>
-  <div class="foot"><span></span><span class="pg"></span></div>
-</section>
+
 
 <section class="slide">
   <div class="kicker">분과 비교 · 코딩 동아리 활용법</div>
@@ -638,5 +658,19 @@ th{background:#ECEFF4!important}
 })();
 </script>
 
+<style>
+.fullscreen-btn{position:fixed;right:18px;top:14px;z-index:20;background:#fff;color:#34405e;border:2px solid #d5dae3;border-radius:999px;padding:8px 20px;font-size:17px;font-weight:700;font-family:inherit;cursor:pointer;box-shadow:0 3px 10px #34405e18}
+.fullscreen-btn:hover{background:#eceff4}.fullscreen-btn:focus-visible{outline:3px solid #7797bd;outline-offset:3px}
+@media print{.fullscreen-btn{display:none!important}}
+</style>
+<button class="fullscreen-btn" id="fullscreenBtn" type="button" aria-label="전체화면 켜기" title="전체화면 (F)">⛶ 전체화면</button>
+<script>
+(function(){
+  var button=document.getElementById('fullscreenBtn');
+  function update(){var active=!!document.fullscreenElement;button.textContent=active?'⛶ 전체화면 종료':'⛶ 전체화면';button.setAttribute('aria-label',active?'전체화면 종료':'전체화면 켜기');button.setAttribute('aria-pressed',String(active));}
+  button.addEventListener('click',function(event){event.stopPropagation();var action=document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();if(action&&action.catch){action.catch(function(){button.textContent='F11로 전체화면';button.title='브라우저에서 F11키로 전체화면을 사용할 수 있습니다';});}});
+  document.addEventListener('fullscreenchange',update);update();
+})();
+</script>
 </body>
 </html>
